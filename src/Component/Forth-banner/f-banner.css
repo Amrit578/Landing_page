@@ -1,0 +1,70 @@
+
+.main-f-banner{
+    padding-top: 30rem;
+    height: 200vh;
+    background-color: black;
+    position: relative;
+}
+.f-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.f-banner .f-banner-list{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.f-banner .f-banner-list h2{
+    font-size: 1.6rem;
+       
+}
+.f-banner .f-banner-list p{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.7);
+    margin: 2rem 0 2rem 5rem;
+    line-height: 1.5;
+    
+}
+.f-banner .f-banner-list .arrow{
+    display: flex;
+    align-items: center;
+}
+.f-banner .right-arrow{
+    font-size: 1rem;
+    width: 2.3vw;
+    height:4vh;
+    padding: 4px;
+    margin-right: 10%;
+    background-color: blue;
+    border-radius: 34px;
+}
+.main-f-banner .f-heading{
+    display: flex;
+    color: #fff;
+    margin: 10% auto;
+    flex-direction: column;
+
+}
+.main-f-banner .f-heading h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.main-f-banner .f-heading p{
+    width: 30vw;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #696871;
+    margin: 2rem auto;
+}
+
+.main-f-banner .f-heading button{
+    width: 13vw;
+    margin: 0 auto;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+}

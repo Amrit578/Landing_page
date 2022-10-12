@@ -1,0 +1,28 @@
+#s-banner{
+    margin : 10rem 0 0 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    background-color: #fff;
+    padding: 3rem;
+}
+#s-banner .s-image img{
+    width: 25vw;
+    margin-left: 30%;
+}
+#s-banner .s-banner-content{
+    width: 25vw;
+    margin-right: 35%;
+}
+#s-banner .s-banner-content h2{
+    font-size: 3rem;
+    margin-bottom: 1.1rem;
+}
+#s-banner .s-banner-content p{
+    line-height: 2;
+    text-align: justify;
+    color: #696871;
+    font-weight: 500;
+    font-family: CircularStd;
+}

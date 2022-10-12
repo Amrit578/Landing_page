@@ -1,0 +1,145 @@
+.t-banner{
+    height: 170vh;
+    background-color: #f7f7fb;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+.t-banner .t-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    margin: 2rem auto;
+    text-align: center;
+}
+.t-banner .t-heading h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+.t-banner .t-heading p{
+    font-size: 1.1rem;
+    line-height: 1.9;
+    color: #696871;
+}
+.t-banner .t-card{
+    display: flex;
+    width: 40vw;
+    background-color: #fff;
+    height: 30vh;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+.t-banner .t-card img{
+    width: 30%;
+}
+.t-banner .t-card .t-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: auto;
+    width: 20vw;
+}
+.t-banner .t-card .t-card-content img{
+    width: 1vw;
+    margin: 10px;
+}
+
+.t-banner .t-card .t-card-content h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.t-banner .t-card .t-card-content h4{
+    color: black;
+    margin: 0.6rem auto;
+}
+.t-banner .t-card .t-card-content h6{
+    color: #696871;
+    margin: 0.6rem auto;
+}
+.t-banner .t-card .left-arrow{
+    position: absolute;
+    left: -3.5%;
+    top: 40%;
+    font-size: 1rem;
+    width: 3vw;
+    height: 5.9vh;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 34px;
+}
+.t-banner .t-card .right-arrow{
+    position: absolute;
+    right: -3.5%;
+    top: 40%;
+    font-size: 1rem;
+    width: 3vw;
+    height: 5.9vh;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 34px;
+}
+
+.t-banner .t-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin: 4rem 10rem;
+}
+.t-banner .t-list .t-inner-list{
+    width: 16vw;
+    
+}
+.t-banner .t-list .t-inner-list h2{
+    text-align: center;
+    margin: 1rem 0;
+    color: #5454d4;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.t-banner .t-list .t-inner-list p{
+    color: #696871;
+    text-align: center;
+    line-height: 1.5;
+}
+.t-banner .t-pricing-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem auto;
+    width: 30vw;
+    text-align: center;
+    
+}
+.t-banner .t-pricing-list h2{
+    font-size: 3rem;
+}
+.t-banner .t-pricing-list p{
+    color: #696871;
+    margin: 1rem auto;
+    line-height: 1.5;
+}
+.t-banner .t-check-plan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t-banner .t-check-plan .check-m{
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.t-banner .t-check-plan button{
+    padding: 0.4rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}

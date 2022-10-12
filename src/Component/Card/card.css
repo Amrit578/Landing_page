@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    margin: 7vh 6%;
+}
+.first-card{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20vw;
+    line-height: 2;
+}
+.first-card img{
+    margin: 20px 0;
+    object-fit: contain;
+}
+.first-card p{
+    font-size: 0.9rem;
+    color: rgb(131, 131, 131);
+}

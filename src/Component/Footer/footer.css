@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    background-color: #fff;
+    margin: 0 10%;
+}
+.footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40vw;
+    margin: 3rem;
+}
+.footer .footer-content p{
+    padding: 22px 0;
+    line-height: 1.5;
+}
+.footer .footer-content li{
+    padding: 10px 0;
+    line-height: 1.5;
+}
+.footer .footer-content  a{
+    padding: 21px 0;
+}
