@@ -24,3 +24,45 @@
 .footer .footer-content  a{
     padding: 21px 0;
 }
+
+@media only screen and (max-width: 700px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        height: 10vh;
+        margin: 0 5%;
+    }
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+        margin: 2rem;
+        height: 20vh;
+    }
+    .footer .footer-content p{
+        padding: 1rem 0;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .footer .footer-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 20vw;
+        margin: 2rem;
+        height: 20vh;
+    }
+    .footer .footer-content p{
+        padding: 1rem 0;
+    }
+}

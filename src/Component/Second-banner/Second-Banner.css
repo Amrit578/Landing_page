@@ -26,3 +26,59 @@
     font-weight: 500;
     font-family: CircularStd;
 }
+
+@media only screen and (max-width: 600px){
+    #s-banner{
+        width: 60vw;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 60vh;
+        background-color: #fff;
+        margin : 0 auto;
+        /* padding: 3rem; */
+    }
+    #s-banner .s-image img{
+        width: 30vw;
+        margin-left: 30%;
+    }
+    #s-banner .s-banner-content{
+        width: 50vw;
+        margin: 0 auto;
+    }
+    #s-banner .s-banner-content h2{
+        font-size: 2rem;
+        margin-bottom: 1.1rem;
+    }
+    #s-banner .s-banner-content p{
+        line-height: 2;
+        text-align: justify;
+        color: #696871;
+        font-weight: 500;
+        font-family: CircularStd;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    #s-banner{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 70vh;
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    #s-banner .s-image img{
+        width: 30vw;
+        margin: 0 auto;
+    }
+    #s-banner .s-banner-content{
+        width: 50vw;
+        margin: 0 auto;
+    }
+    #s-banner .s-banner-content h2{
+        font-size: 2rem;
+        margin-bottom: 1.1rem;
+    }
+}

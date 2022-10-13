@@ -51,3 +51,39 @@
 #banner .banner-list .icon-list{
     margin-left: -31%;
 }
+
+
+@media only screen and (max-width: 700px){
+    #banner{
+        padding: 2rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        height: 110vh;
+    }
+    #banner .left-content{
+        width: 40vw;
+        margin: 0 auto;
+      
+    }
+    #banner .left-content h2{
+        font-size: 2rem;
+    }
+    #banner .left-content p{
+        width: 60vw;
+        text-align: justify;
+    }
+    #banner img{
+        width: 40vw;
+    }
+    #banner .banner-list .icon-list{
+        margin-left: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    #banner .banner-list .icon-list{
+        margin-left: 0.6rem;
+    }
+}

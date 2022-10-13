@@ -1,7 +1,6 @@
 
 hr{
     width: 100%;
-   
     border: solid 0.9px #eae9f2;
 }
 .app-card{
@@ -15,4 +14,18 @@ hr{
 .app-card img{
     text-align: center;
     width: 9vw;
+}
+@media only screen and (max-width: 600px){
+    .app-card{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto;
+        height: 40vh;
+        
+    }   
+    .app-card img{
+        text-align: center;
+        width: 20vw; 
+        margin: 1rem auto;
+    }
 }

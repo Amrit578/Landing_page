@@ -50,8 +50,7 @@ nav ul button{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    flex-wrap: wrap;
-    width: 30%;
+    width: 40%;
     margin-left: 10%;
 }
 .content .left-content h1{
@@ -80,7 +79,7 @@ nav ul button{
     color: rgb(231, 229, 229);
 }
 .content .left-content .content-button{
-    width: 13vw;
+    width: 23vw;
     height: 2.563rem;
     padding: 0.75rem 0 0.688rem;
     border-radius: 4.5px;
@@ -96,7 +95,6 @@ nav ul button{
 }
 
 .content .right-content{
-    position: relative;
     margin: 30px;
 }
 .content .right-content img{
@@ -104,6 +102,36 @@ nav ul button{
     margin-top : 20%;
 }
 
-@media (max-width: 576px) {
-   
+
+
+@media only screen and (max-width: 700px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        height: 160vh;
+        background-image: radial-gradient(circle at 50% 0, #504a93, #413e65 77%);
+    }
+    nav{
+        margin: 10% auto;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+   .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: justify;
+   }
+  
+   .content .left-content h1{
+    font-size: 2rem;
+   }
 }

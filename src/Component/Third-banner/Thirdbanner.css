@@ -143,3 +143,162 @@
     border-radius: 5px;
     color: #fff;
 }
+
+
+@media only screen and (max-width: 700px){
+    .t-banner{
+        height: 200vh;
+        background-color: #f7f7fb;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .t-banner .t-heading{
+        width: 50vw;
+        margin: 3rem auto;
+    }
+    .t-banner .t-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+        height: 60vh;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .t-banner .t-card img{
+        width: 40%;
+        object-fit: contain;
+    }
+    .t-banner .t-card .t-card-content{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    .t-banner .t-card .left-arrow{
+        left: -5%;
+        width: 7vw;
+        height: 5vh;
+        padding: 7px;
+        color: #fff;
+        background-color: black;
+    }
+    .t-banner .t-card .right-arrow{
+        right: -4%;
+        top: 38%;
+        width: 7vw;
+        height: 5vh;
+        color: #fff;
+    }
+
+    .t-banner .t-card .t-card-content img{
+        width: 2vw;
+        margin: 2rem auto;
+
+    }
+
+    .t-banner .t-list{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem 11rem;
+    }
+
+    .t-banner .t-pricing-list{
+        display: flex;
+        flex-direction: column;
+        margin: 30rem auto;
+        width: 50vw;
+        text-align: center;
+        
+    }
+  
+    @media only screen and (max-width: 600px){
+        .t-banner .t-pricing-list{
+            margin: 40rem auto;
+            
+            
+        }
+    }
+
+    @media only screen and (max-width: 500px){
+        .t-banner{
+            height: 250vh;
+            background-color: #f7f7fb;
+            margin-top: 5rem;
+            display: flex;
+            flex-direction: column;
+        }
+    
+    
+        .t-banner .t-heading{
+            width: 50vw;
+            margin: 3rem auto;
+        }
+        .t-banner .t-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 80vw;
+            margin: 0 auto;
+            padding-bottom: 10rem;
+            
+        }
+        .t-banner .t-card img{
+            width: 40%;
+            object-fit: contain;
+        }
+        .t-banner .t-card .t-card-content{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        .t-banner .t-card .left-arrow{
+            left: -5%;
+            width: 7vw;
+            height: 5vh;
+            padding: 7px;
+            color: #fff;
+            background-color: black;
+        }
+        .t-banner .t-card .right-arrow{
+            right: -4%;
+            top: 38%;
+            width: 7vw;
+            height: 5vh;
+            color: #fff;
+        }
+    
+        .t-banner .t-card .t-card-content img{
+            width: 2vw;
+            margin: 2rem auto;
+    
+        }
+    
+        .t-banner .t-list{
+            display: flex;
+            flex-direction: column;
+            margin: 19rem 11rem;
+        }
+    
+        .t-banner .t-pricing-list{
+            display: flex;
+            flex-direction: column;
+            margin: 30rem auto;
+            width: 50vw;
+            text-align: center;
+            
+        }
+        .t-banner .t-card .t-card-content{
+            text-align: center;
+            margin: 2rem 0;
+            width: 70vw;
+        }
+        .t-banner .t-card .t-card-content h2{
+            font-size: 0.9rem;
+            text-align: center;
+        }
+    }
+
+}
