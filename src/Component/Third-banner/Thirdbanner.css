@@ -164,7 +164,7 @@
         flex-direction: column;
         align-items: center;
         width: 60vw;
-        height: 60vh;
+        height: 80vh;
         flex-wrap: wrap;
         position: relative;
     }
@@ -224,9 +224,9 @@
 
     @media only screen and (max-width: 500px){
         .t-banner{
-            height: 250vh;
+            height: 350vh;
             background-color: #f7f7fb;
-            margin-top: 5rem;
+            margin-top: 2rem;
             display: flex;
             flex-direction: column;
         }
@@ -234,7 +234,7 @@
     
         .t-banner .t-heading{
             width: 50vw;
-            margin: 3rem auto;
+            margin: 2rem auto;
         }
         .t-banner .t-card{
             display: flex;
@@ -298,6 +298,13 @@
         .t-banner .t-card .t-card-content h2{
             font-size: 0.9rem;
             text-align: center;
+        }
+
+        .t-banner .t-check-plan{
+            margin-top: -50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
 
